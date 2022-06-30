@@ -1,0 +1,63 @@
+# Como funciona a Internet
+
+## O que são redes?
+
+Rede de computadores ou rede de dados, é o conjunto de dois ou mais dispositivos eletrônicos de computação interligados por um sistema de comunicação digital, guiados por um conjunto de regras para compartilhar entre si informações, serviços e recursos lógicos.
+
+## O que é backbone?
+
+No contexto de redes de computadores, o backbone (espinha dorsal) designa o esquema de ligações centrais de um sistema de redes mais amplo, tipicamente de elevado desempenho e com dimensões continentais.
+
+## O que são provedores de acesso?
+
+Provedores de acesso são empresas ou entidades que mantém a infra-estrutura de comunicações necessárias para que o usuário final, ou outros provedores de serviço de acesso, possam se ligar a Internet.
+
+
+# TCP/IP, Portas, Roteadores, Switches e Modems
+
+## O TCP/IP é um conjunto de protocolos de comunicação entre computadores em rede. TCP significa Transmission Control Protocol (Protocolo de controle de transmissão) e IP significa Internet Protocol (Protocolo de Internet).
+
+A comunicação entre computadores, não pode ocorrer de forma desordenada. Para isso, as informações passam por 4 camadas:
+
+1. Física (ex: placa de rede)
+2. Rede (ex: IP)
+3. Transporte (ex: TCP ou UDP)
+4. Aplicação (ex: HTTP)
+
+## O que é UDP?
+
+O User Datagram Protocol (Protocolo de Datagramas do Usuário) é um protocolo simples da camada de transporte.
+
+## TCP x UDP
+
+### UDP
+1. Rápido.
+2. Não confiável, pois não tem confirmação de recebimento, portanto arquivos podem se perder.
+3. Não sabe quem recebe.
+4. Livestream.
+
+### TCP
+1. Voltado à conexão.
+2. Handshake, comunicação direta e aviso de recebimento.
+3. Integridade e Ordens de Dados, os dados são recebidos e entrgues na determinada ordem.
+4. Whats App, setas azuis.
+
+## O que são Portas ou Ports?
+
+Em rede de computadores, uma porta é um processo específico servindo de ponto final ou entrada de comunicações em um sistema operacional hospedeiro de um computador.
+
+20: FTP
+22: SSH
+25: SMTP
+53: DNS
+80: HTTP
+443: HTTPS
+
+# Modem, Switches e Roteadores
+
+
+## Modem vem do termo MOdulator-DEModulator.É um hardware que converte dados em um formato que possa ser transmitido de um computador para outro e lido por outro.
+
+## Roteador dristribui internet para um ou mais dispositivos de uma rede.
+
+## Switch também distribui internet para um ou mais dispositivos de uma rede, porém faz isso de acordo com a demanda de pedidos.
